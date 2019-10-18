@@ -134,3 +134,14 @@ print("cycle_long is {0}; 面积 is {1}:".format(cycle_long,size))
 ================ RESTART: C:/Users/ykf7020/Desktop/py3_try.py ================
 Please input r :12
 cycle_long is 75.39822368615503; 面积 is 452.3893421169302:
+
+练习3：输入年份判断是不是闰年
+# coding=utf-8
+year = int(input('请输入年份: '))
+# 如果代码太长写成一行不便于阅读 可以使用\对代码进行折行
+is_leap = (year % 4 == 0 and year % 100 != 0) or \
+           year % 400 == 0
+print("{0}年是闰年：{1}".format(year,is_leap))
+
+
+#day 1 学习内容如上。
