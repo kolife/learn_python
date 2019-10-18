@@ -84,7 +84,7 @@ print('%d ** %d = %d' % (a, b, a ** b))
 说明：上面的print函数中输出的字符串使用了占位符语法，其中%d是整数的占位符，%f是小数的占位符，
 %%表示百分号（因为百分号代表了占位符，所以带占位符的字符串中要表示百分号必须写成%%），字符串之
 后的%后面跟的变量值会替换掉占位符然后输出到终端中，运行上面的程序，看看程序执行结果就明白啦。
-{0}.format()格式，可参考[format介绍]https://www.runoob.com/python/att-string-format.html
+{0}.format()格式，可参考[format介绍](https://www.runoob.com/python/att-string-format.html)
 >>>"{} {}".format("hello", "world")    # 不设置指定位置，按默认顺序
 'hello world'
  
